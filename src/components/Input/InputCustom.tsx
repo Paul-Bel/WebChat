@@ -1,12 +1,12 @@
 import React, {FocusEvent, useState} from 'react';
-import style from './InputCustome.module.scss';
+import style from './InputCustom.module.scss';
 import clip from '../../constants/img/ico/clip.png'
 import send from '../../constants/img/ico/Send.png'
 
 let locPlaceholder: string = 'Type message';
 let plugCallBack = () => {
 }
-export const InputCustome =
+export const InputCustom =
     ({value, onChange = plugCallBack, placeholder = locPlaceholder}:
          { value: string | null, placeholder?: string; onChange?: (value: string | null) => void, }) => {
         const [defaultValue, setDefaultValue] = useState<boolean>(false)

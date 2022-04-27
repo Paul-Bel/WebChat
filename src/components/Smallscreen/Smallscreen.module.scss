@@ -1,0 +1,28 @@
+.smallContainer {
+  display: none
+}
+
+@media screen and (max-width: 700px) {
+  .smallContainer {
+    margin: 0 auto;
+    width: 700px;
+    height: 800px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0 16px 16px rgb(0 0 0 / 25%);
+    justify-content: center;
+
+    & h3 {
+      font-family: Lato, serif;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 32px;
+      max-width: 540px;
+      height: 96px;
+      letter-spacing: -0.44px;
+    }
+  }
+}

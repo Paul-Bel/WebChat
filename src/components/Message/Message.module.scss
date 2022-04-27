@@ -1,0 +1,74 @@
+
+.messageContainer {
+  max-width: 588px;
+  min-height: 78px;
+  font-family: Lato, serif;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  letter-spacing: 0.4px;
+  margin: 10px 24px;
+
+
+  .avatar {
+    width: 32px;
+    height: 32px;
+    margin: 2px 0;
+    border-radius: 4px;
+  }
+
+  .profileMessage {
+    //height: 56px;
+
+    .nickName {
+      display: block;
+      font-weight: 700;
+      margin: 0 0 0 8px;
+    }
+
+    .message {
+      max-width: 470px;
+      font-weight: 400;
+      background: #F3F3F3;
+      border-radius: 4px;
+      padding: 8px 17px 8px 12px;
+      margin: 4px 0 0 8px;
+      box-sizing: border-box;
+      position: relative;
+      text-align-last: left;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      flex-direction: column;
+
+
+      .time {
+        right: 12px;
+        bottom: 8px;
+        font-weight: 400;
+        line-height: 9px;
+        color: #605E5C;
+        font-size: 12px;
+        margin: 0 12px 8px 0;
+        display: flex;
+        height: 0;
+        flex-direction: row;
+        width: 9px;
+      }
+
+      .isEdited {
+        margin-right: 8px;
+        line-height: 9px;
+      }
+    }
+    .myMessage{
+      background-color: rgba(64, 126, 201, 0.16);
+      border-radius: 4px;
+    }
+  }
+}
+.myMessage{
+  margin-left: 54%;
+
+}

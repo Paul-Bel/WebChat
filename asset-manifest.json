@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/WebChat/static/css/main.17a9863a.css",
+    "main.js": "/WebChat/static/js/main.1ba91ea8.js",
+    "static/js/787.28cb0dcd.chunk.js": "/WebChat/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/WebChat/index.html",
+    "main.17a9863a.css.map": "/WebChat/static/css/main.17a9863a.css.map",
+    "main.1ba91ea8.js.map": "/WebChat/static/js/main.1ba91ea8.js.map",
+    "787.28cb0dcd.chunk.js.map": "/WebChat/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17a9863a.css",
+    "static/js/main.1ba91ea8.js"
+  ]
+}
